@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="calci">
+        <h1 style="font-style: italic; justify-content: center; display: flex;">Calculator</h1>
+        <h5> Enter value 1</h5>
+        <input id="num1" type="text" value="1"></br>
+        <h5> Enter value 2</h5>
+        <input id="num2" type="text" value="1"></br>
+        <h5>Total value</h5>
+        <input id="tot" type="number" value="0" style="font-style: italic; justify-content: center; display: flex;">
+        <div style="display: flex; justify-content: space-around;">
+            <button onclick="calculation('add')">+</button>
+            <button onclick="calculation('sub')">-</button>
+            <button onclick="calculation('multi')">*</button>
+            <button onclick="calculation('divi')">/</button>
+        </div>
+    </div>
+</body>
+
+</html>
